@@ -43,8 +43,7 @@ public class Node<T> {
 		}
 		@Override
 		public String toString() {
-			// TODO Auto-generated method stub
-			return super.toString();
+			return getIndex() +" "+ getValue();
 		}
 		public void setIndex(Node<T> indice) {
 			// TODO Auto-generated method stub
